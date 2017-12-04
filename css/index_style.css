@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	color: #333;
+}
+body .hero-image{	/*background:url("../images/oliver_throw.png") no-repeat;
+	background-position:0 30%;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;*/
+	display:block;
+	min-width:100%;
+	min-height: 100%;
+	width:100%;
+	height:auto;
+}
+.my-nav {
+	background-color: rgba(254,254,254,1.00);
+	position:fixed;
+	top:5%;
+	left:5%;
+	z-index:1000;
+	 box-shadow: 10px 10px 8px rgba(020,020,020,.50);
+}
+ul#links {
+	list-style-type: none;
+	padding:15px;
+	margin:0;
+	
+}
+li.menu {
+	font-family: "ingra-condensed",sans-serif;
+font-style: normal;
+font-weight: 400;
+	font-size:18pt;
+	
+}
+h1 {
+	font-family: "ingra-condensed",sans-serif;
+font-style: normal;
+	font-size: 24pt;
+font-weight: 700;
+}
+span {
+	color:#84288e;
+	font-weight: 700;
+}
+span#tagline {
+	font-weight:300;
+	font-size:17.5pt;
+}
+.my-nav hr {
+	width:25px;
+	margin-left:0;
+	background-color: #333;
+	height:3px;
+}
+@media only screen and (max-width : 767px) {
+	.my-nav{
+		left:0px;
+		top:0px;
+		
+	}
+
+}
+@media only screen and (max-width : 600px) {
+	.my-nav{
+		box-shadow: 10px 10px 8px rgba(020,020,020,0.00);
+		}
+	img{
+		margin-top:280px;
+	}
+
+}
+@media only screen and (min-width : 500px){
+	.my-nav {
+		width:275px;
+	}
+}
+
+#links a {
+	color:#333;
+}
+#links a:hover {
+	color: #84288e;
+	text-decoration:none;
+}.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+.carousel-caption h1 {
+	font-family: "ingra-condensed",sans-serif;
+}
+.carousel-caption a {
+	  color:white;
+}
+footer {
+	padding:1%;
+	text-align: right;
+	font-family: "ingra-condensed",sans-serif;
+font-style: normal;
+font-weight: 300;
+	font-size: 14pt;
+}

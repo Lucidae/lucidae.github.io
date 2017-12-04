@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	color: #333;
+	font-family: "ingra-condensed",sans-serif;
+	font-style: normal;
+}
+body .hero-image{	/*background:url("../images/oliver_throw.png") no-repeat;
+	background-position:0 30%;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;*/
+	display:block;
+	min-width:100%;
+	min-height: 100%;
+	width:100%;
+	height:auto;
+}
+.container {
+	margin-top: 100px;
+	margin-left: 20%;
+}
+.my-nav {
+	background-color: rgba(254,254,254,.70);
+	position:fixed;
+	top:1%;
+	left:0;
+	z-index:1000;
+}
+ul#links {
+	list-style-type: none;
+	padding:15px;
+	margin:0;
+	
+}
+li.menu {
+	font-family: "ingra-condensed",sans-serif;
+font-style: normal;
+font-weight: 400;
+	font-size:18pt;
+	
+}
+h1 {
+	font-family: "ingra-condensed",sans-serif;
+font-style: normal;
+	font-size:24pt;
+font-weight: 700;
+}
+h2 {
+	font-family: "ingra-condensed",sans-serif;
+	font-style: normal;
+	font-weight:700;
+	font-size:36pt;
+	color: #84288e;
+	}
+span {
+	color:#84288e;
+	font-weight: 700;
+}
+.my-nav hr {
+	width:25px;
+	margin-left:0;
+	background-color: #333;
+	height:3px;
+}
+a {
+	color:#333;
+}
+a:hover {
+	color: #84288e;
+	text-decoration:none;
+}
+.text-block {
+	text-align: justify;
+	font-size:16pt;
+}
+.rollover {
+	display:block;
+	min-width:100%;
+	min-height: 100%;
+	width:100%;
+	height:auto;
+	padding-bottom: 1%;
+}
+footer {
+	clear:both;
+	padding:1%;
+	text-align: right;
+	font-family: "ingra-condensed",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14pt;
+}
+@media only screen and (max-width : 1315px){
+	.container {
+		padding-left:9%;
+	}
+	
+}
+@media only screen and (max-width : 1010px){
+	.container {
+		padding-left:15%;
+	}
+	
+}
+@media only screen and (max-width : 769px) {
+	.my-nav{
+		left:0px;
+		top:0px;
+	}
+	.container{
+		margin-top: 275px;
+		margin-left:0;
+		padding-left:15px;
+	}
+
+}
+@media only screen and (min-width : 769px){
+	.container{
+		width:70%;
+	}
+}
+@media only screen and (min-width : 500px){
+	.my-nav {
+		width:275px;
+	}
+}
