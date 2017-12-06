@@ -86,7 +86,7 @@ a:hover {
 	color: #84288e;
 	text-decoration:none;
 }
-a#outside-link {
+a.outside-link {
 	text-decoration: underline;
 }
 a#resume {
@@ -114,7 +114,7 @@ a#resume:hover {
 	font-size:16pt;
 }
 img#signature {
-	float:right;
+	float:left;
 }
 @media only screen and (min-width : 769px){
 	.container{
