@@ -68,6 +68,14 @@ h2 {
 	margin: 0 auto 4% auto ;
 	text-align: center;
 	}
+h3 {
+	text-align:left;
+	font-weight:bold;
+	font-size: 30pt;
+	color: #84288e;
+	max-width:500px;
+	margin: 5% auto -2% auto ;
+}
 span {
 	color:#84288e;
 	font-weight: 700;
@@ -144,6 +152,12 @@ img.small-img2 {
 	height:auto;
 	margin-left:13%;
 	margin-right:auto;
+}
+img.stack {
+	margin-bottom: 15px;
+}
+img.scan {
+	border: 1px solid #000;
 }
 @media only screen and (min-width : 769px){
 	.container{
