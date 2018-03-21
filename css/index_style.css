@@ -21,7 +21,7 @@ body .hero-image{	/*background:url("../images/oliver_throw.png") no-repeat;
 	top:5%;
 	left:5%;
 	z-index:1000;
-	 box-shadow: 10px 10px 8px rgba(020,020,020,.50);
+	 box-shadow: 8px 8px 10px rgba(020,020,020,.25);
 }
 ul#links {
 	list-style-type: none;
